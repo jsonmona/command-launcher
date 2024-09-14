@@ -1,0 +1,8 @@
+[package]
+name = "command-launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.88", features = ["backtrace"] }
+shellish_parse = "2.2.0"
